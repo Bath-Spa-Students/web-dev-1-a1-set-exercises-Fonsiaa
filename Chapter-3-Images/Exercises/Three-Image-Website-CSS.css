@@ -1,0 +1,79 @@
+body {
+    /*background colour of the website*/
+    background:linear-gradient(#799d44,#4d7116,#202c0d);
+}
+
+.img { /*the background image of the header*/
+    padding-top: 75px;
+    padding-bottom: 130px;
+    position: relative;
+    background-image: url(img/leaf.png); /*importing the image*/
+    background-size: contain;
+    top: -15px;
+    opacity: 0.8; /*changing the opacity of the image*/
+    display: flex; /*layout of the image*/
+    /*adjusting the brightness of the background img header*/
+    filter: brightness(85%);
+}
+
+h1 {
+    font-family: "Lora", serif; /*changing the font*/
+    font-weight:bolder; /*bold text*/
+    color: rgb(233, 206, 171); /*colour of the text*/
+    font-size: 60px; /*size of the text*/
+    text-align: center; /*alignment or where the position of the text*/
+    margin-top: -11%; /*gap from the top of the website to the text*/
+    /* x-offest, y-offest, blur-radius, shadow colour*/
+    text-shadow: 0 0 8px #202b0f; /*shadow of the header*/
+}
+
+.colume {
+    padding:11px; /*gap from the img to the boarder*/
+    justify-content: space-between;
+    box-shadow: 0 0 17px rgb(1, 37, 8);
+    flex-direction: column;
+    filter: contrast(90%) brightness(130%) drop-shadow(30%);
+}
+
+.colume p {
+    color: antiquewhite;
+    font-family: "Lora"; /*changing the font*/
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+    font-style: italic;
+}
+
+.text {
+    font-size: 18px;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /*gap between the bg img and the images*/
+    margin-top: 9%;
+    margin-left: 2%;
+}
+
+#row::after { /*inserts the images beside/after the image*/
+    content: ""; 
+    clear: both; /*positioned next to a floating image*/
+    display: table; /*display the images as a table*/
+}
+
+footer {
+    text-align: center;
+    color:antiquewhite;
+    margin-bottom: 109px;
+    font-family: "Lora";
+    font-size: 15px;
+    position: relative;
+    /*translate (x,y)*/
+    transform: translate(-15px, 80px); /*positioning the text*/
+    
+}
+
