@@ -1,0 +1,129 @@
+/* for commenting, use  */
+
+/* heading 1 - sushi*/
+.foodname {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1px 1%;
+    background-color:  rgb(0, 0, 0);
+    display: flex;
+    z-index: 100;
+    align-items: center;
+    color: aliceblue;
+    font-size: 22px;
+}
+
+/* Style the footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 10px 1%;
+}
+
+/*background image*/
+.pic {
+    background-image:url(2.jpg);
+    background-repeat: no-repeat;
+    /*bg: width, height*/
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title2 {
+    max-width: 1000px;
+}
+
+.foodname img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 51vh;
+    height: 27vh;
+    object-fit:cover;
+    /*margin: top, right, bottom, left*/
+    margin: -2px -165px 0 4px;
+}
+
+.title2 p {
+    font-size: 19px;
+    font-weight: 100;
+    text-align: center;
+}
+
+/*styling only the food */
+.food {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    text-align:center;
+    color: rgb(255, 255, 255);
+}
+
+#table {
+    width: 100%;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+}
+
+/*the images in the table*/
+td img {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 65px;
+    text-align: left;
+    max-width: 100%;
+    border: 1cm;
+}
+
+/*splitting the screen*/
+.split {
+    height: 100%;
+    width: 60%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/*left side of the screen*/
+/*the ingredients of the food*/
+.left {
+    left: 0;
+    width: 38%;
+    height: 50%;
+    margin-top: 19%;
+    margin-left: 1%;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+/*the right side of the screen*/
+/*the method of the food*/
+.right {
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255); /*text colour*/
+    position: absolute; /*box fixed in position*/
+    /*padding: top, right, bottom, left*/
+    padding: 0 1px 6px 9px;
+    text-align: left;
+    /*positioning the method box on the website*/
+    /*transform:translate(left-right, up-down)*/
+    transform: translate(-1%, 28%);
+    bottom: auto;
+    width:58%;
+    margin-top: 1%;
+    margin-right: 1%;
+}
