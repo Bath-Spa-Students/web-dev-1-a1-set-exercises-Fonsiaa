@@ -1,0 +1,19 @@
+body {
+    margin: auto;
+    max-width: 500px;
+}   
+
+.date { /*heading 1*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text { /*paragraph*/
+    color: rgb(194, 121, 25);
+}
+
+#pic { /*image*/
+    float: right; /*position the image to the right*/
+}
+
+nav ul { list-style-type: none; }
+nav a { text-decoration: none; }
