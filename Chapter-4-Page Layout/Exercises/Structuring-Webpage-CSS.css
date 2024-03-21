@@ -23,6 +23,8 @@ header h1 {
     padding-bottom: 0;
     /*text colour of the header*/
     color: #FFFFFF; 
+    display: inline-block; /*will not take up all the full width*/
+    border-bottom: 5px solid; /*creates the bottom line for the heading*/
 }
 
 /*navigation*/
@@ -73,7 +75,7 @@ a:hover {
     font-size: 36px; /*size of the header text*/
     display: inline-block; /*sit inline with the text*/
     margin-bottom: 0;
-    border-bottom: 5px solid;
+    border-bottom: 5px solid; /*creates the bottom line for the heading*/
 }
 
 #intro p {
@@ -97,7 +99,7 @@ a:hover {
     /*colour of the box at the right*/
     background-color: #172d67;
     /*padding: top right:20 bottom left*/
-    padding: 0 20px 0 0;
+    padding: 0 20px 5px 0;
 }
 
 #bluebox h1 { /*heading 1 inside the bluebox*/
