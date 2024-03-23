@@ -32,7 +32,6 @@ h1 {
     justify-content: space-between;
     box-shadow: 0 0 17px rgb(1, 37, 8);
     flex-direction: column;
-    filter: contrast(90%) brightness(130%) drop-shadow(30%);
 }
 
 .colume p {
@@ -42,6 +41,28 @@ h1 {
     text-align: center;
     margin: 0;
     font-style: italic;
+}
+
+#img1 {
+    filter:saturate(4);
+}
+#img1:hover  {
+    filter:none
+}
+
+#img2 {
+    filter:saturate(2);
+}
+#img2:hover {
+    filter:none
+}
+
+#img3 {
+    filter:saturate(3);
+}
+#img3:hover {
+    filter:none;
+
 }
 
 .text {
@@ -74,6 +95,5 @@ footer {
     position: relative;
     /*translate (x,y)*/
     transform: translate(-15px, 80px); /*positioning the text*/
-    
 }
 
