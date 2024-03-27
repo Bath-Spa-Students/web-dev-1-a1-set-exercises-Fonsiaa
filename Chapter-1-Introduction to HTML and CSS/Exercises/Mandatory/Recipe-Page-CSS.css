@@ -28,7 +28,7 @@ footer {
 
 /*background image*/
 .pic {
-    background-image:url(2.jpg);
+    background-image:url(images/2.jpg);
     background-repeat: no-repeat;
     /*bg: width, height*/
     background-color: black;
