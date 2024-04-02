@@ -1,8 +1,11 @@
 /* CSS styling */
 body {
+    /*font of the entire webiste*/
     font-family: Arial, sans-serif;
+    /*adding bg image*/
     background-image: url(img/a.jpeg);
-    background-size: cover;
+    background-size: cover; /*covers the entire website*/
+    /*to centralize the content of the website*/
     max-width: max-content;
     margin: auto;
     margin-top: 150px;
@@ -13,13 +16,13 @@ body {
     margin: 50px;
     padding: 20px;
     border-radius: 8px; /*the rounded corner of the border*/
-    border: 1px solid black;
-    background-color: rgba(242, 245, 143, 0.5);
+    border: 1px solid black; /*width, the style, and colour of the border */
+    background-color: rgba(242, 245, 143, 0.5); /*colour of the calculator with transparency of 0.5*/
 }
 
 h1 {
-    color: rgb(0, 0, 0);
-    text-align: center;
+    color: rgb(0, 0, 0); /*colour of the text*/
+    text-align: center; /*positioning the text at the */
 }
 
 /*label for the gas and km*/
