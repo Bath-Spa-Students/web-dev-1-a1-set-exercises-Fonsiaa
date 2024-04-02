@@ -7,10 +7,9 @@ body {
 
 h1 {
     text-align: center; /*text position on the center of the website*/
-    color: rgb(255, 255, 255); /*colour of the text*/
+    color: rgb(0, 0, 0); /*colour of the text*/
     font-size: 40px; /*size of the font*/
-    text-shadow: 1px 1px 5px rgb(0, 0, 0); /*shadow of the text*/
-    
+    text-shadow: 0 0 2px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255); /*shadow of the text*/
 }
 
 .sounds {
