@@ -1,0 +1,14 @@
+
+/*example 2*/
+.color-box {
+    background-color: limegreen;  width: 100px;
+    height: 100px;
+    }
+
+/*example 3*/
+
+.color-box {
+    background-color: rgb(79, 14, 85);  width: 100px;
+    height: 100px;
+    }
+        
