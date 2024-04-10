@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         score = 0;
     }
 
+    //generating the colours
     function generateRandomColors(num) {
         const arr = [];
         for (let i = 0; i < num; i++) {
@@ -34,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
         return arr;
     }
 
+    //the random number that the rgb will display
     function randomColor() {
         const r = Math.floor(Math.random() * 256);
         const g = Math.floor(Math.random() * 256);
